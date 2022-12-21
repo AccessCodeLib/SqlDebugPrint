@@ -1,13 +1,13 @@
 'Author: Josef Poetzl
 
 const AddInName = "SqlDebugPrint"
-const AddInFileName = "SqlDebugPrint.mda"
+const AddInFileName = "SqlDebugPrint.accda"
 const MsgBoxTitle = "Update SqlDebugPrint-Wizard"
 
 MsgBox "Vor dem Aktualisieren der Add-In-Datei darf das Add-In nicht geladen sein!" & chr(13) & _
        "Zur Sicherheit alle Access-Instanzen schlieﬂen.", , MsgBoxTitle & ": Hinweis"
 
-Select Case MsgBox("Soll das Add-In als MDE verwendet werden?" + chr(13) & _
+Select Case MsgBox("Soll das Add-In als accde verwendet werden?" + chr(13) & _
                    "(Add-In wird kompiliert ins Add-In-Verzeichnis kopiert.)", 3, MsgBoxTitle)
    case 6 ' vbYes
       CreateMde GetSourceFileFullName, GetDestFileFullName
