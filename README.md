@@ -1,4 +1,6 @@
 # SqlDebugPrint
+
+
 Dieses AddIn erleichtert das Testen von in VBA zusammengesetzten (SQL-Strings/Kriterien-
 ausdrücken), indem es die in Foren oft ans Herz gelegte Vorgehensweise:
 
@@ -19,3 +21,5 @@ geöffnet werden kann.
  - in einer beliebigen DB den AddIn-Manager aufrufen, das AddIn auswählen und installieren
  - AddIn einmal im Menu aufrufen
  - das Startformular erklärt alles Weitere
+
+Idee und Umsetzung: [Ekkehard Boehme](https://github.com/EkkehardBoehme)
