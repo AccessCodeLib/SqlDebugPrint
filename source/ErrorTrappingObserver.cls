@@ -39,6 +39,7 @@ End Property
 
 Public Property Let ErrorTrapping(ByVal NewValue As ErrorTrapping)
     If ErrorTrapping <> NewValue Then
+        m_CurrentErrorTrapping = NewValue
         Application.SetOption "Error Trapping", NewValue
     End If
 End Property
